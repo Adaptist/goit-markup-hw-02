@@ -14,10 +14,7 @@
 }
 
 body {
-	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: calc(24 / 16);
 	letter-spacing: 0.02em;
     color: var(--color-slate);
 }
@@ -36,7 +33,6 @@ body {
 }
 
 .title {
-    font-weight: 700;
     font-size: 36px;
     line-height: calc(40/36);
     text-transform: capitalize;
@@ -62,16 +58,24 @@ body {
 
 .nav-link {
     font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24/16);
     color: var(--color-navy-blue);
 }
 
 .address-link {
     font-style: normal;
-    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);    
 }
 
-.list .nav-link:active,
-.list .mail:active {
+.nav-link.active {
+    color: var(--color-ocean);
+}
+
+.nav-link:hover,
+.nav-link:focus {
     color: var(--color-ocean);
 }
 
@@ -94,14 +98,15 @@ body {
 }
 
 .hero-btn {
-    background: var(--color-iris);
+    background-color: var(--color-iris);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
     color: var(--color-white);
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     background: var(--color-ocean);
 }
 
@@ -118,6 +123,12 @@ body {
     color: var(--color-navy-blue);
 }
 
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);
+}
+
 /* What are we doing */
 
 /* Our Team */
@@ -127,6 +138,12 @@ body {
     font-size: 20px;
     line-height: calc(24/20);
     color: var(--color-navy-blue);
+}
+
+.list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* Footer */
@@ -151,6 +168,9 @@ body {
 }
 
 .footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);
     color: var(--color-cloud);
 }
 
@@ -158,12 +178,13 @@ body {
 /* Portfolio */
 
 .filtr-btn {
-    background: var(--color-cloud);
+    background-color: var(--color-cloud);
     font-weight: 500;
     color: var(--color-iris);
 }
 
-.filtr-btn:active {
-    background: var(--color-ocean);
+.filtr-btn:hover,
+.filtr-btn:hover {
+    background-color: var(--color-ocean);
     color: var(--color-white);
 }
