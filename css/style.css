@@ -105,6 +105,10 @@ body {
     background: var(--color-ocean);
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 /* Features */
 
 .features-subtitle {
