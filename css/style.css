@@ -1,0 +1,149 @@
+:root {
+--color-iris: #4d5ae5;
+--color-ocean: #404bbf;
+--color-navy-blue: #2e2f42;
+--color-green: #31d0aa;
+--color-slate: #434455;
+--color-light-slate: #8e8f99;
+--color-cornflower: #e7e9fc;
+--color-cloud: #f4f4fd;
+--color-navy-blue-modal: #2e2f42;
+--color-grey: #2e2f42;
+--color-white: #ffffff;
+--color-dairy: #fcfcfc;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: calc(24 / 16);
+	letter-spacing: 0.02em;
+    color: var(--color-slate);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    font: inherit
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40/36);
+    text-transform: capitalize;
+    color: var(--color-navy-blue);
+}
+
+/* Header */
+
+.current {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
+}
+
+.current span {
+    color: var(--color-navy-blue)
+}
+
+.nav-link {
+    font-weight: 500;
+    color: var(--color-navy-blue);
+}
+
+.address-link {
+    font-style: normal;
+    
+}
+
+.list .nav-link:active,
+.list .mail:active {
+    color: var(--color-ocean);
+}
+
+/* Hero */
+
+.hero {
+    background: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: calc(60/56);
+    color: var(--color-white);
+}
+
+.hero-btn {
+    background: var(--color-iris);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+
+.hero-btn:hover {
+    background: var(--color-ocean);
+}
+
+/* Features */
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    color: var(--color-navy-blue);
+}
+
+/* What are we doing */
+
+/* Our Team */
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    color: var(--color-navy-blue);
+}
+
+/* Footer */
+
+.footer {
+    background: var(--color-navy-blue);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
+}
+
+.footer-logo span {
+    color: var(--color-cloud)
+}
+
+.footer-text {
+    color: var(--color-cloud);
+}
+
+
+/* Portfolio */
