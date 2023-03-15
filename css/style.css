@@ -75,6 +75,11 @@ body {
     color: var(--color-ocean);
 }
 
+.address-link:hover,
+.address-link:focus {
+    color: var(--color-ocean);
+}
+
 /* Hero */
 
 .hero {
