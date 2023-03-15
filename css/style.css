@@ -184,7 +184,7 @@ body {
 }
 
 .filtr-btn:hover,
-.filtr-btn:hover {
+.filtr-btn:focus {
     background-color: var(--color-ocean);
     color: var(--color-white);
 }
