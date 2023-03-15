@@ -111,7 +111,7 @@ body {
 
 /* Features */
 
-.features-subtitle {
+.subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24/20);
@@ -156,3 +156,14 @@ body {
 
 
 /* Portfolio */
+
+.filtr-btn {
+    background: var(--color-cloud);
+    font-weight: 500;
+    color: var(--color-iris);
+}
+
+.filtr-btn:active {
+    background: var(--color-ocean);
+    color: var(--color-white);
+}
